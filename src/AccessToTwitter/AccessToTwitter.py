@@ -1,5 +1,5 @@
 import tweepy
-from config import config
+from .config.config import config
 
 class AccessToApi:
     def __init__(self):
